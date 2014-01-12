@@ -24,10 +24,12 @@ grunt.loadNpmTasks('grunt-ssg');
 #### path
 Type: `String`  
 Default: same directory as `Gruntfile.js`
+
 Path to where the view files are located.
 
 #### config
 Type: `String`
+
 Path to a valid SSG JSON manifest
 
 ### Usage Examples
@@ -47,5 +49,8 @@ ssg: {
 }
 ```
 
-### Register task, run as "dev" target.
+### Register task
+Run it as "dev" target.
+```js
 grunt.registerTask('default', ['ssg:dev']);
+````
