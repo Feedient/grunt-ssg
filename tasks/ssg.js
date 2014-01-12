@@ -22,6 +22,6 @@ module.exports = function(grunt) {
 		var ssgConfig = JSON.parse(fs.readFileSync(options.config, 'utf8'));
 
 		// Run SSG
-		ssg(options.path, ssgConfig);
+		ssg(options.path, ssgConfig, grunt.log.oklns);
 	});
 };
