@@ -1,0 +1,16 @@
+{
+	"name": "grunt-ssg",
+	"description": "Grunt task for Feedient's Static Site Generator (SSG)",
+	"version": "1.0.0",
+	"private": false,
+	"dependencies": {
+		"ssg": "*"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Feedient/grunt-ssg.git"
+	}
+}
